@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Karla&family=Readex+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(to right bottom,#f7258477,#7109b78e),
+                     url(../img/tokyo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.content{
+    
+    width: 100%;
+    height: 60%;
+    direction: rtl;
+    font-family: 'Readex Pro', sans-serif;
+}
+.content .heading{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    direction: rtl;
+    font-size: 2.7rem;
+    font-family: 'Readex Pro', sans-serif;
+    color: #fff;
+    text-shadow: 1px 2px 2px #000;
+}
+.content span {
+    color: #4cc9f0;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: .9rem;
+    text-shadow: 1px 1px 2px #000;
+    
+}
+.list{
+    
+    width: 100%;
+    height: 70px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-top: 10px;
+}
+.list li {
+    transition: .5s all ease-in-out;
+    border-radius: 100px;
+     font-size: 1.23rem;
+     margin: .4rem .4rem 0 0;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: #3a0ca3;
+     display: inline-block;
+     padding: .5rem 1rem;
+     background-color: rgba(255, 255, 255, 0.322);
+}
+.list li:hover{
+    background-color: rgba(255, 255, 255, 0.568);
+    transform: skewY(-10deg);
+}
+.views{
+    margin-top: 20px;
+    
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+.input{
+    transition: .4s all ease;
+    width: 90%;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    padding: .4rem;
+    direction: rtl;
+    font-family: inherit;
+    font-size: 1rem;
+}
+.btn{
+    transition: .5s all ease-in-out;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #f72585;
+    margin-top: 40px;
+    transform: scale(1.2);
+    box-shadow: 0 5px 10px #fff;
+    
+
+}
+.bi{
+    color: #fff;
+    font-weight: bold;
+    
+}
+.input:focus{
+    outline: none;
+    transform: scale(1.1);
+}
+
+.btn:hover{
+    background-color: #000;
+}
+
+
+
+
+
+/*------------------------*/
+
+.be{
+    
+    padding: 2rem;
+    background-image: linear-gradient(to right bottom, #4ccaf0,#f7258485);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+}
+.be .boko{
+    padding: .3rem;
+    box-shadow: 5px 10px 15px #4ccaf07c;
+    background-color: #fff;
+    width: 100%;
+    height: 20rem;
+    text-align: center;
+    
+    z-index: 100;
+    
+}
+.closed{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3.3rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.vs-dan{
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.title-1{
+    font-size: 3rem;
+    letter-spacing: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #f72585;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.514);
+}
+.demo{
+    line-height: 45px;
+    direction: rtl;
+    font-size: 2rem;
+    font-family: 'Readex Pro', sans-serif;
+    margin-top: 30px;
+    color: #3a0ca3;
+}
