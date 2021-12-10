@@ -124,7 +124,7 @@
 
 .be{
     border-radius:2px;
-    padding: 2rem;
+    padding: 2rem 1.4rem;
     background-image: linear-gradient(to right bottom, #4ccaf0,#f7258485);
     position: fixed;
     height: 100%;
