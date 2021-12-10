@@ -69,8 +69,6 @@
     transform: skewY(-10deg);
 }
 .views{
-    margin-top: 20px;
-    
     padding: 1rem;
     display: flex;
     justify-content: center;
@@ -125,7 +123,7 @@
 /*------------------------*/
 
 .be{
-    
+    border-radius:2px;
     padding: 2rem;
     background-image: linear-gradient(to right bottom, #4ccaf0,#f7258485);
     position: fixed;
